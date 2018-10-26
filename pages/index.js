@@ -64,12 +64,12 @@ class LoginBox extends Component {
 
   onSubmit = async(event) =>{
       var config = {
-     apiKey: "AIzaSyA75_tMAU8sazpYJ6bSo-uW2jQ2dWLfi80",
-     authDomain: "dapp-voting-9c7fd.firebaseapp.com",
-     databaseURL: "https://dapp-voting-9c7fd.firebaseio.com",
-     projectId: "dapp-voting-9c7fd",
-     storageBucket: "dapp-voting-9c7fd.appspot.com",
-     messagingSenderId: "753660212432"
+     apiKey: "",
+     authDomain: "",
+     databaseURL: "",
+     projectId: "",
+     storageBucket: "",
+     messagingSenderId: ""
    };
    if (!firebase.apps.length) {
      firebase.initializeApp(config);
